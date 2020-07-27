@@ -7,11 +7,8 @@ export default function Header() {
       <Navbar.Brand href="#home">YAMDB api</Navbar.Brand>
       <Navbar.Collapse id="site-navbar-nav" className="justify-content-end">
         <Nav className="mr-0">
-          <Nav.Link href="/getkey">Get a Key</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/translate">Translate</Nav.Link>
-          <Nav.Link href="/theme">Theme</Nav.Link>
+          <Nav.Link href="/documentation">Documentation</Nav.Link>
+          <Nav.Link href="/getkey">GET FREE API KEY</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
