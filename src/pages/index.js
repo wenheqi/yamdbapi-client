@@ -139,10 +139,7 @@ export default function Home() {
           className="d-flex flex-column justify-content-center align-items-center px-3 py-3 vh-100"
           style={{ backgroundColor: "paleturquoise" }}
         >
-          <h2>
-            To get a free API key, all you need to provide is just an email
-            address.
-          </h2>
+          <h2>To get a free API key, all you need is just an email address.</h2>
           <SignUpForm className="mt-1" />
         </div>
       </section>
