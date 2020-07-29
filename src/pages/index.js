@@ -1,6 +1,7 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import Layout from "../components/layout"
+import SignUpForm from "../components/signupform"
 
 export default function Home() {
   return (
@@ -27,12 +28,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section
-        id="usage"
-        className="min-vh-100 px-2 py-4"
-        style={{ backgroundColor: "lightyellow" }}
-      >
-        <div>
+      <section id="usage">
+        <div
+          className="min-vh-100 px-2 py-4"
+          style={{ backgroundColor: "lightyellow" }}
+        >
           <h2>YamDB API is super easy to use.</h2>
           <p>
             Append query parameters along with API key to the HTTP endpoint,
@@ -134,16 +134,17 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section
-        id="signup"
-        className="vh-100"
-        style={{ backgroundColor: "paleturquoise" }}
-      >
-        <h1>All you need is just an email address.</h1>
-        <form>
-          <input type="email" />
-          <button>Get Free Key</button>
-        </form>
+      <section id="signup">
+        <div
+          className="d-flex flex-column justify-content-center align-items-center px-3 py-3 vh-100"
+          style={{ backgroundColor: "paleturquoise" }}
+        >
+          <h2>
+            To get a free API key, all you need to provide is just an email
+            address.
+          </h2>
+          <SignUpForm className="mt-1" />
+        </div>
       </section>
     </Layout>
   )
