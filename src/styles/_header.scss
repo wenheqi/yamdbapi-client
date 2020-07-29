@@ -1,3 +1,11 @@
+.navbar {
+  background-color: aliceblue;
+}
+
+.navbar-brand {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
 .navbar-collapse .navbar-nav .nav-link::after {
   content: "";
   display: block;
@@ -5,7 +13,7 @@
   width: 0;
   align-self: center;
   transition: ease-out 0.2s;
-  border-bottom: 2px solid tomato;
+  border-bottom: 2px solid rgb(255, 79, 173);
 }
 
 .navbar-collapse .navbar-nav .nav-link:hover::after {
