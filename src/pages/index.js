@@ -15,14 +15,17 @@ export default function Home() {
             YamDB is a simple yet powerful API connecting millions of movies,
             posters and more.
           </h2>
-          <div className="d-flex flex-column justify-content-center align-items-stretch">
+          <div className="d-flex flex-column justify-content-center align-items-stretch flex-lg-row">
             <button
-              className="btn mt-5 mb-2"
+              className="btn mt-5 mb-2 mr-lg-2"
               onClick={() => scrollTo("#signup")}
             >
               GET FREE API KEY
             </button>
-            <button className="btn mt-2" onClick={() => scrollTo("#usage")}>
+            <button
+              className="btn mt-2 mt-lg-5 mb-lg-2"
+              onClick={() => scrollTo("#usage")}
+            >
               LEARN MORE
             </button>
           </div>
@@ -140,7 +143,7 @@ export default function Home() {
           style={{ backgroundColor: "paleturquoise" }}
         >
           <h2>To get a free API key, all you need is just an email address.</h2>
-          <SignUpForm className="mt-1" />
+          <SignUpForm className="mt-1 mt-lg-5" />
         </div>
       </section>
     </Layout>

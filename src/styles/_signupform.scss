@@ -34,4 +34,19 @@
       color: #777;
     }
   }
+
+  button {
+    color: #ffffff;
+    background: rgb(255, 79, 173);
+    border-color: rgb(255, 79, 173);
+  }
+
+  button:focus {
+    outline: 0;
+    box-shadow: 0 0 0.2rem #ff149382;
+  }
+
+  button {
+    height: 3.125rem;
+  }
 }
