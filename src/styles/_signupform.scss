@@ -1,19 +1,17 @@
 .signUpForm {
-  .form-group {
+  .form-label-group {
     position: relative;
 
-    input[type="email"],
-    input[type="email"] ~ label {
+    input[type="email"] {
       height: 3.125rem;
       padding: 0.75rem;
     }
 
     input[type="email"] ~ label {
       position: absolute;
-      top: 0;
-      left: 0;
-      display: block;
-      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      padding-left: 0.75rem; // this should be the same as the input
       margin-bottom: 0;
       line-height: 1.5;
       color: #495057;
@@ -30,8 +28,8 @@
     }
 
     input[type="email"]:not(:placeholder-shown) ~ label {
-      padding-top: 0.25rem;
-      padding-bottom: 0.25rem;
+      top: 0.25rem;
+      transform: translateY(0);
       font-size: 12px;
       color: #777;
     }

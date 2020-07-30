@@ -8,14 +8,16 @@ export default function SignUpForm({ className }) {
       }`}
     >
       <div className="form-group">
-        <input
-          type="email"
-          className="form-control"
-          placeholder="Email address"
-          id="signUpFormEmail"
-          aria-describedby="emailHelp"
-        />
-        <label htmlFor="signUpFormEmail">Email address</label>
+        <div className="form-label-group">
+          <input
+            type="email"
+            className="form-control"
+            placeholder="Email address"
+            id="signUpFormEmail"
+            aria-describedby="emailHelp"
+          />
+          <label htmlFor="signUpFormEmail">Email address</label>
+        </div>
         <small id="emailHelp" className="form-text text-muted">
           We'll never share your email with anyone else.
         </small>
