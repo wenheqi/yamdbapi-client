@@ -25,7 +25,7 @@ export default function SignUpForm({ className }) {
           <div className="form-label-group">
             <input
               type="email"
-              className="form-control"
+              className={`form-control${isValidEmail ? `` : ` invalid`}`}
               placeholder="Email address"
               id="signUpFormEmail"
               aria-describedby="emailHelp"
