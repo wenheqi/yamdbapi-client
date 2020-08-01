@@ -36,7 +36,7 @@ export default function SignUpForm({ className }) {
       count++
     }, 500)
     const url =
-      "https://dof0g44aek.execute-api.us-west-1.amazonaws.com/prod/user"
+      "https://p2wos20o5j.execute-api.us-west-1.amazonaws.com/prod/user"
     const data = { email }
     const config = {}
     axios
@@ -47,6 +47,7 @@ export default function SignUpForm({ className }) {
       })
       .catch(err => {
         clearInterval(handler)
+        console.log(err)
         setButtonText("Failed")
       })
   }
