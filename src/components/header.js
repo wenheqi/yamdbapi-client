@@ -10,7 +10,12 @@ export default function Header() {
   return (
     <Navbar expand="lg" className="px-lg-5">
       <Navbar.Toggle aria-controls="site-navbar-nav" />
-      <Navbar.Brand href="/">🍠{` `}YamDB</Navbar.Brand>
+      <Navbar.Brand href="/">
+        <span role="img" aria-label="logo">
+          🍠
+        </span>
+        {` `}YamDB
+      </Navbar.Brand>
       <Navbar.Collapse id="site-navbar-nav" className="justify-content-end">
         <Nav className="mr-0">
           <Nav.Link href="/documentation">Documentation</Nav.Link>
