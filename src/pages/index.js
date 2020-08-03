@@ -39,14 +39,14 @@ export default function Home() {
           className="vh-100 d-flex flex-column flex-lg-row px-2 py-4"
           style={{ backgroundColor: "lightyellow" }}
         >
-          <div className="d-flex flex-column flex-lg-shrink-1 justify-content-center">
+          <div className="d-flex flex-column flex-shrink-0 flex-lg-shrink-1 justify-content-center">
             <h2>YamDB API is super easy to use.</h2>
             <p>
               Append query parameters along with API key to the HTTP endpoint,
               YamDB will return all the data fulfill your query in JSON format.
             </p>
           </div>
-          <div className="flex-grow-1 d-flex flex-column justify-content-center align-items-center p-lg-5 overflow-auto">
+          <div className="flex-lg-grow-1 d-flex flex-column justify-content-center align-items-center p-lg-5 overflow-auto">
             <Chrome />
           </div>
         </div>
