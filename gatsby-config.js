@@ -5,5 +5,14 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-smoothscroll`],
+  siteMetadata: {
+    title: `YamDB - Yet Another Movie Database API`,
+    description: `A free, simple yet powerful movie database API.`,
+    author: `Wenhe Qi`,
+  },
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-smoothscroll`,
+    `gatsby-plugin-react-helmet`,
+  ],
 }

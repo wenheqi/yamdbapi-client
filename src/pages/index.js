@@ -2,10 +2,12 @@ import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import Layout from "../components/layout"
 import SignUpForm from "../components/signupform"
+import SEO from "../components/seo"
 
 export default function Home() {
   return (
     <Layout>
+      <SEO title="YamDB - Yet Another Movie Database API" />
       <section id="hero">
         <div
           className="d-flex flex-column justify-content-center align-items-center px-3 py-3 vh-100"
