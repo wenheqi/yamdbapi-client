@@ -9,6 +9,7 @@ export default function Chrome() {
           <div className="circle pastelOrange"></div>
           <div className="circle malachite"></div>
         </div>
+        <div className="tab"></div>
       </div>
       <div className="addressBar">
         <div className="address">
